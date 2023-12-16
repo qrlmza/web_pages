@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+body{
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+div.container{
+    margin-top: 100px;
+    margin-left: 190px;
+    padding: 20px;
+    width: 1200px;
+    height: max-content;
+}
+
+div.container div.content a{
+    color: #333;
+    text-decoration: underline #333;
+}
+
+div.container div.content h1.title{
+    margin-top: 50px;
+    text-align: center;
+}
+
+div.container div.content h2.subtitle{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+div.container div.content div.sumary{
+    display: grid;
+    float: left;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+div.container div.content h2.author{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 150px;
+}
+div.container div.content img.summary{
+    height: 350px;
+    border-radius: 5px;
+    background-image: linear-gradient(#7cbde9, #333);
+
+}
+
+div.container div.content div.sumary p.image-description{
+    width: 550px;
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+body{
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+div.container div.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 550px;
+    height: max-content;
+    text-align: center;
+}
+
+div.container div.content h1.title span.code {
+    color: #2e55c0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+div.container div.content p.subtitle {
+    margin-bottom: 50px;
+}
+
+div.container div.content a.btn {
+    text-decoration: none;
+    color: #333;
+    border: #333 solid 1px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-indent: 50px;
+    margin: 10px;
+    transition: 0.3s background-color;
+} div.container div.content a.btn:hover {
+    background-color: #2e55c0;
+    border-color: #2e55c0;
+    color: #fff;
+}
+
+div.container div.content a.home-btn{
+    background-color: #2e55c0;
+    border-color: #2e55c0;
+    color: #fff;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+body{
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+div.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: max-content;
+}
+
+div.container div.content ul{
+    border-left: solid 1px #33333367;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+div.container div.content ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+div.container div.content a{
+    color: #333;
+    text-decoration: underline #333;
+}
